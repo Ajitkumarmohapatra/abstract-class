@@ -1,1 +1,22 @@
-
+/*
+abstract class Agenda1
+{
+    abstract void task1();
+    void task2()
+    {
+        System.out.println("we are inside task 2 of abstract class");
+    }
+    }
+    class abstr extends Agenda1{
+        void task1()
+        {
+            System.out.println("we are inside the task 1 of subclass ");
+        }
+        public static void main (String[]args)
+        {
+            abstr obj = new abstr();
+            obj.task1();
+            obj.task2();
+        }
+    }
+    */
