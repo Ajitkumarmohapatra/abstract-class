@@ -1,1 +1,24 @@
-
+interface Agenda1{
+    void task1();
+}
+interface LastAgenda extends Agenda1
+{
+    void task2();
+}
+class A implements LastAgenda
+{
+    public void task1()
+    {
+        System.out.println("hello task1");
+    }
+    public void task2()
+    {
+        System.out.println("hello task2");
+    }
+    public static void main(String[]args)
+    {
+        A obj = new A();
+        obj.task1();
+        obj.task2();
+    }
+}
