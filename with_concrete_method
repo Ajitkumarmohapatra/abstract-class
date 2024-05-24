@@ -1,4 +1,4 @@
-/*
+
 abstract class Agenda1
 {
     abstract void task1();
@@ -19,4 +19,4 @@ abstract class Agenda1
             obj.task2();
         }
     }
-    */
+    
