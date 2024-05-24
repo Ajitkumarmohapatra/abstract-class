@@ -1,1 +1,13 @@
+abstract class Agenda{
+    public abstract void task1();
 
+}
+class abs extends Agenda{
+    public void task1(){
+        System.out.println("task1 done ...");
+    }
+    public static void main(String[]args){
+        abs obj=new abs();
+        obj.task1();
+    }
+}
