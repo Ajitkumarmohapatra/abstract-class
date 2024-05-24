@@ -1,1 +1,24 @@
+  //error program
+    abstract class agenda1{
+        public abstract void task1();
+    }
+     abstract class agenda2{
+        public abstract void task1();
+    }
+     class abstr extends agenda1,agenda2{ // java does not support multiple inheritance
+        public void task1()
+        {
+            System.out.println("task1 done..");
+        }
+        public void task2()
+        {
+            System.out.println("task 2 done..");
+        }
+        public static void main (String[]args)
+        {
+            abstr obj = new abstr();
+            obj.task1();
+        }
+    }
+    
 
